@@ -1,132 +1,192 @@
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
-nav{
-    z-index: 50;
-
+.navbardiv1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30em;
 }
 .sec1bgimg {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../IMAGES/thumbnail-of-wallpaper-cyberpunk-soldier.jpg);
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../IMAGES/thumbnail-of-wallpaper-cyberpunk-soldier.jpg);
 }
 
-.sec1bgimg h1{
-    display: flex;
-    font-size: 4em;
-    margin: 1em;
-    margin-top: 3em;
-    text-align: left;
-    float: left;
-    animation: fadeIn 3s;
+.sec1bgimg h1 {
+  display: flex;
+  font-size: 4em;
+  margin: 1em;
+  margin-top: 3em;
+  text-align: left;
+  float: left;
+  animation: fadeIn 3s;
 }
 
-.sec1bgimg h4{
-    display: flex;
-    font-size: 30px;
-    margin: 1em;
-    margin-top: -2.3em;
-    margin-left: 2.3em;
-    text-align: left;
-    float: left;
-    animation: fadeIn 3s;
+.sec1bgimg h4 {
+  display: flex;
+  font-size: 30px;
+  margin: 1em;
+  margin-top: -2.3em;
+  margin-left: 2.3em;
+  text-align: left;
+  float: left;
+  animation: fadeIn 3s;
 }
 
-.buttonmain{
-    display: flex;
-    gap: 40px;
-    margin-top: 23em;
-    margin-left: 5em;
-    animation: fadeIn 3s; 
+.buttonmain {
+  display: flex;
+  gap: 40px;
+  margin-top: 23em;
+  margin-left: 5em;
+  animation: fadeIn 3s;
 }
 
-.buttonmain #getstarted, #login{
-    background: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
-    width: 9em;
-    height: auto;
-    border: 2px solid purple;
-    border-radius: 40px;
-    font-size: 20px;
+.buttonmain #getstarted,
+#login {
+  background: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+  width: 9em;
+  height: auto;
+  border: 2px solid purple;
+  border-radius: 40px;
+  font-size: 20px;
 }
 
-.buttonmain #getstarted:hover, #login:hover{
-    background: linear-gradient(316deg, #451592 0%, #a71a71 74%);
+.buttonmain #getstarted:hover,
+#login:hover {
+  background: linear-gradient(316deg, #451592 0%, #a71a71 74%);
 }
 
-.blackbg{
-   position: relative;
-   width: 100%;
-   height: 100vh;
-   background-position: center;
-   background-size: cover;
-   background-color: #06020a;
-   padding-bottom: 50em;
+.blackbg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-color: #06020a;
+  padding-bottom: 50em;
 }
 
-.blackbg  .activemsg{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    font-size: 50px;
+.blackbg .activemsg {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 50px;
 }
 
-.activemsg div{
-    margin-top: 2em;
+.activemsg div {
+  margin-top: 2em;
 }
 
-.blackbgsec1 #blackbgmainlogo{
-    position: absolute;
-    margin-top: -4em; 
-} 
-
-.blackbgsec1{
-    margin-top: 8em;
+.blackbgsec1 #blackbgmainlogo {
+  position: absolute;
+  margin-top: -4em;
 }
 
-.blackbgsec1 p{
-    max-width: 35em;
-    font-size: 22px;
-    float: right;
-    margin-top: 5em;
-    margin-right: 50px;
+.blackbgsec1 {
+  margin-top: 8em;
 }
 
-.sec2bgimg{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../IMAGES/purple-gaming-257vaqhccop04hw3.jpg);
+.blackbgsec1 p {
+  max-width: 35em;
+  font-size: 22px;
+  float: right;
+  margin-top: 5em;
+  margin-right: 50px;
 }
+
+.sec2bgimg {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  font-size: 50px;
+  background-image: url(../IMAGES/purple-gaming-257vaqhccop04hw3.jpg);
+}
+
+.sec2bgimg img{
+  margin-left: 8.3em;
+}
+
+.sec2bgimg h1{
+  margin-top: -2em;
+  margin-left: 10.7em;
+}
+
+
 
 .hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
 }
 
+footer {
+  width: 100%;
+  height: 10em;
+  background-color: #06020a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.con1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h1 {
+  font-size: 20px;
+}
+
+footer h5 {
+  margin: 0;
+  padding-right: 1em;
+  font-size: 20px;
+}
+
+.followus{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.followus img {
+  width: 30px;
+  height: 30px;
+  
+}
+
+.followus img:hover {
+  transform: scale(1.1);
+}
+
+
 @keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: translateY(0px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(-20px);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
 }

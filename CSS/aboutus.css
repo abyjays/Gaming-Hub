@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-sec1 {
+  padding: 50px;
+  text-align: center;
+  background-image: url(../IMAGES/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg);
+  color: white;
+}
+
+
+.ourteammainbg{
+  background-image: url(../IMAGES/purple-gaming-257vaqhccop04hw3.jpg);
+}
+
+.container {
+  margin: 0 16px;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background: linear-gradient(316deg, #310e68 0%, #5f0f40 74%);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background: linear-gradient(316deg, #451592 0%, #a71a71 74%);
+}
+
+.backbutton img{
+  width: 2em;
+  float: left;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
