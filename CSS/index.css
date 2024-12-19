@@ -14,6 +14,7 @@ body {
   justify-content: space-between;
   margin-right: 30em;
 }
+
 .sec1bgimg {
   position: relative;
   width: 100%;
@@ -115,16 +116,14 @@ body {
   background-image: url(../IMAGES/purple-gaming-257vaqhccop04hw3.jpg);
 }
 
-.sec2bgimg img{
+.sec2bgimg img {
   margin-left: 8.3em;
 }
 
-.sec2bgimg h1{
+.sec2bgimg h1 {
   margin-top: -2em;
   margin-left: 10.7em;
 }
-
-
 
 .hero-overlay {
   position: absolute;
@@ -162,23 +161,20 @@ footer h5 {
   font-size: 20px;
 }
 
-.followus{
+.followus {
   display: flex;
   gap: 20px;
   align-items: center;
 }
 
-
 .followus img {
   width: 30px;
   height: 30px;
-  
 }
 
 .followus img:hover {
   transform: scale(1.1);
 }
-
 
 @keyframes fadeIn {
   0% {
@@ -188,5 +184,109 @@ footer h5 {
   100% {
     opacity: 1;
     transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+
+  .sec1bgimg h1 {
+    font-size: 2.5em;
+  }
+
+  .sec1bgimg h4 {
+    font-size: 1.2em;
+    margin-left: 1.5em;
+  }
+
+  .buttonmain {
+    margin-top: 20em;
+    margin-left: 3em;
+    gap: 20px;
+  }
+
+  .buttonmain button {
+    width: 8em;
+    font-size: 18px;
+  }
+
+  .navbardiv1 {
+    padding: 0 1em;
+  }
+
+  footer h1 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  body{
+    overflow-x: hidden;
+  }
+  .sec1bgimg h1 {
+    font-size: 2em;
+  }
+
+  .sec1bgimg h4 {
+    font-size: 1.2em;
+    margin-left: 2em;
+  }
+
+  .buttonmain {
+    margin-top: 15em;
+    margin-left: 2em;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .buttonmain button {
+    width: 100%;
+    font-size: 18px;
+  }
+
+ .blackbg{
+  padding-bottom: 75em;
+ }
+
+ #blackbgmainlogo{
+  display: none;
+ }
+
+ .blackbgsec1 p{
+  max-width: 620px;
+  margin-left: 30px;
+  margin-right: 8em;
+  font-size: 20px;
+ }
+
+  .activemsg {
+    font-size: 1.5em;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 4em;
+  }
+
+  .sec2bgimg img{
+    float: left;
+    margin-left: 0.5em;
+    margin-top: -2em;
+  }
+
+  .sec2bgimg h1{
+    margin-top: 7em;
+    margin-left: 4em;
+    max-width: 290px;
+  }
+
+  footer h1 {
+    font-size: 16px;
+    margin-top: -8px;
+  }
+
+  .followus {
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
   }
 }
